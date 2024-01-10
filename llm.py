@@ -15,10 +15,12 @@ import os
 
 # Create config
 MASTER_CONFIG = {
-    'batch_size': 8,          # Number of batches to be processed at each random split
     'context_window': 16,     # Number of characters in each input (x) and target (y) sequence of each batch
     'vocab_size': 65,
     'd_model': 128,
+    'epochs': 1000,          # Number of training epochs
+    'log_interval': 10,      # Log information every 10 batches during training
+    'batch_size': 32,        # Increase batch size to 32
 }
 
 
@@ -179,23 +181,6 @@ class SimpleBrokenModel(nn.Module):
 
 model = SimpleBrokenModel(MASTER_CONFIG)
 
-print(f'params: {sum([m.numel() for m in model.parameters()])}')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Obtain batches for training using the specified batch size and context window
@@ -204,20 +189,74 @@ xs, ys = get_batches(dataset, 'train', MASTER_CONFIG['batch_size'], MASTER_CONFI
 # Decode the sequences to obtain the corresponding text representations
 decoded_samples = [(decode(xs[i].tolist()), decode(ys[i].tolist())) for i in range(len(xs))]
 
-# Print the random sample
-print(decoded_samples)
 
 logits, loss = model(xs,ys)
 
-print(f'logits: {logits}')
-print(f'loss: {loss}')
+
+optimizer = torch.optim.Adam(
+    model.parameters(),      # Pass the model parameters to the optimizer
+)
 
 
 
 
+# Function to perform training
+def train(model, optimizer, scheduler=None, config=MASTER_CONFIG, print_logs=False):
+    # Placeholder for storing losses
+    losses = []
 
+    # Start tracking time
+    start_time = time.time()
 
+    # Iterate through epochs
+    for epoch in range(config['epochs']):
+        # Zero out gradients
+        optimizer.zero_grad()
 
+        # Obtain batches for training
+        xs, ys = get_batches(dataset, 'train', config['batch_size'], config['context_window'])
+
+        # Forward pass through the model to calculate logits and loss
+        logits, loss = model(xs, targets=ys)
+
+        # Backward pass and optimization step
+        loss.backward()
+        optimizer.step()
+
+        # If a learning rate scheduler is provided, adjust the learning rate
+        if scheduler:
+            scheduler.step()
+
+        # Log progress every specified interval
+        if epoch % config['log_interval'] == 0:
+            # Calculate batch time
+            batch_time = time.time() - start_time
+
+            # Evaluate loss on validation set
+            x = evaluate_loss(model)
+
+            # Store the validation loss
+            losses += [x]
+
+            # Print progress logs if specified
+            if print_logs:
+                print(f"Epoch {epoch} | val loss {x['val']:.3f} | Time {batch_time:.3f} | ETA in seconds {batch_time * (config['epochs'] - epoch)/config['log_interval'] :.3f}")
+
+            # Reset the timer
+            start_time = time.time()
+
+            # Print learning rate if a scheduler is provided
+            if scheduler:
+                print("lr: ", scheduler.get_lr())
+
+    # Print the final validation loss
+    print("Validation loss: ", losses[-1]['val'])
+
+    # Plot the training and validation loss curves
+    return pd.DataFrame(losses).plot()
+
+# Execute the training process
+train(model, optimizer)
 
 
 
