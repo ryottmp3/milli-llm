@@ -17,6 +17,8 @@ import os
 MASTER_CONFIG = {
     'batch_size': 8,          # Number of batches to be processed at each random split
     'context_window': 16,     # Number of characters in each input (x) and target (y) sequence of each batch
+    'vocab_size': 65,
+    'd_model': 128,
 }
 
 
@@ -90,9 +92,94 @@ def get_batches(data, split, batch_size, context_window, config=MASTER_CONFIG):
     return x, y
 
 
+@torch.no_grad() # Don't compute gradients when evaluating
+def evaluate_loss(model, config=MASTER_CONFIG):
+    # Placeholder for eval results
+    out = {}
+
+    # Set the model to eval mode
+    model.eval()
+
+    # iterate through training and validation splits
+    for split in ["train", "val"]:
+        # Placeholder for individual losses
+        losses = []
+
+        # Generate 10 batches for eval
+        for _ in range(10):
+            xb, yb = get_batches(
+                data=dataset,
+                split=split,
+                batch_size=config["batch_size"],
+                context_window=config["context_window"],
+            )
+
+            # Perform model inference and calculate loss
+            _, loss = model(xb, yb)
+
+            # Append the loss to the list
+            losses.append(loss.item())
+
+        # Calculate mean loss and store it in output dict
+        out[split] = np.mean(losses)
+
+    # Set the model back to training mode
+    model.train()
+
+    return out
 
 
 
+
+
+### BUILD A BASE NEURAL NETWORK ###
+
+class SimpleBrokenModel(nn.Module):
+    def __init__(self, config=MASTER_CONFIG):
+        super().__init__()
+        self.config = config
+
+        # Embedding layer: char -> vectors
+        self.embedding = nn.Embedding(config['vocab_size'], config['d_model'])
+
+        # Linear layers for modeling relationships between features
+        # (to be updated with SwiGLU activation function as in LLaMA)
+        self.linear = nn.Sequential(
+            nn.Linear(config['d_model'], config['d_model']),
+            nn.ReLU(),  # Currently using ReLU, will be replaced with SwiGLU as in LLaMA
+            nn.Linear(config['d_model'], config['vocab_size']),
+        )
+
+        # Print the total number of model parameters
+        # print("Model parameters:", sum([m.numel() for m in self.parameters()]))
+
+    # Forward pass function for the base model
+    def forward(self, idx, targets=None):
+        # Embedding layer converts character indices to vectors
+        x = self.embedding(idx)
+
+        # Linear layers for modeling relationships between features
+        a = self.linear(x)
+
+        # Apply softmax activation to obtain probability distribution
+        logits = F.softmax(a, dim=-1)
+
+        # If targets are provided, calculate and return the cross-entropy loss
+        if targets is not None:
+            # Reshape logits and targets for cross-entropy calculation
+            loss = F.cross_entropy(logits.view(-1, self.config['vocab_size']), targets.view(-1))
+            return logits, loss
+
+        # If targets are not provided, return the logits
+        else:
+            return logits
+
+        # Print the total number of model parameters
+        # print("Model parameters:", sum([m.numel() for m in self.parameters()]))
+
+model = SimpleBrokenModel(MASTER_CONFIG)
+
+print(f'params: {sum([m.numel() for m in model.parameters()])}')
 
 
 
@@ -120,7 +207,10 @@ decoded_samples = [(decode(xs[i].tolist()), decode(ys[i].tolist())) for i in ran
 # Print the random sample
 print(decoded_samples)
 
+logits, loss = model(xs,ys)
 
+print(f'logits: {logits}')
+print(f'loss: {loss}')
 
 
 
