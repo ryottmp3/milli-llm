@@ -1,6 +1,6 @@
 ---
 created: 2025-08-14T09:45:53-06:00
-modified: 2025-08-14T18:10:04-06:00
+modified: 2025-08-14T18:10:14-06:00
 type: Checklist
 ---
 
@@ -10,7 +10,6 @@ type: Checklist
 - [x] Cat Litter
 - [x] Sourdough Bread
 - [x] Toilet Paper
-- [ ] Paper Towels
 - [ ] Unwashed Eggs
 - [x] Water Jugs
 - [x] Moms Gas
