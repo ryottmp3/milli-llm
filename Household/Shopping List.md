@@ -1,17 +1,20 @@
 ---
 created: 2025-08-14T09:45:53-06:00
-modified: 2025-08-14T10:15:21-06:00
+modified: 2025-08-14T18:10:04-06:00
 type: Checklist
 ---
 
 # Shopping List
 
-- [ ] Cat Food - Meow Mix
-- [ ] Cat Litter
-- [ ] Sourdough Bread
-- [ ] Toilet Paper
+- [x] Cat Food - Meow Mix
+- [x] Cat Litter
+- [x] Sourdough Bread
+- [x] Toilet Paper
 - [ ] Paper Towels
 - [ ] Unwashed Eggs
-- [ ] Water Jugs
-- [ ] Moms Gas
+- [x] Water Jugs
+- [x] Moms Gas
 - [ ] razor shaver
+- [x] Coffee Beans
+- [ ] Butter
+- [ ] canned meat
