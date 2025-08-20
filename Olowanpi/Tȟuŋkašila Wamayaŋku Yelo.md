@@ -1,6 +1,6 @@
 ---
 created: 2025-08-20T08:22:25-06:00
-modified: 2025-08-20T08:28:23-06:00
+modified: 2025-08-20T08:39:21-06:00
 ---
 
 # Tȟuŋkašila Wamayaŋku Yelo
@@ -8,7 +8,7 @@ modified: 2025-08-20T08:28:23-06:00
 Tȟuŋkašila wamayaŋku yelo he 
 Tȟuŋkašila wamayaŋku yelo he 
 Tȟuŋkašila wamayaŋku yelo he 
-Ikče wičaša [kiŋ tȟača] čaŋnuŋpa waŋ yuha ya hoye wayelo he
+Ikče wičaša kiŋ tȟa-čaŋnuŋpa waŋ yuha ya hoye wayelo he
 Tȟuŋkášila wamayaŋku yelo he
 
 
