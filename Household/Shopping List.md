@@ -1,6 +1,6 @@
 ---
 created: 2025-08-14T09:45:53-06:00
-modified: 2025-08-22T12:29:02-06:00
+modified: 2025-08-24T12:30:09-06:00
 type: Checklist
 ---
 
@@ -18,3 +18,4 @@ type: Checklist
 - [ ] baking soda
 - [ ] french press
 - [ ] lemon
+- [ ] febreeze
