@@ -1,6 +1,6 @@
 ---
 created: 2025-08-14T09:45:53-06:00
-modified: 2025-08-30T18:51:00-06:00
+modified: 2025-08-30T18:51:28-06:00
 type: Checklist
 ---
 
@@ -21,3 +21,8 @@ type: Checklist
 - [ ] febreeze
 - [ ] razor
 - [ ] skuya food
+- [ ] underwear
+- [ ] shirts
+- [ ] socks 
+- [ ] pants?
+- [ ] skirt?
