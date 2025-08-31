@@ -1,6 +1,6 @@
 ---
 created: 2025-08-14T09:45:53-06:00
-modified: 2025-08-24T12:30:09-06:00
+modified: 2025-08-30T18:51:00-06:00
 type: Checklist
 ---
 
@@ -19,3 +19,5 @@ type: Checklist
 - [ ] french press
 - [ ] lemon
 - [ ] febreeze
+- [ ] razor
+- [ ] skuya food
