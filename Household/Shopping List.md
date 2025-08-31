@@ -1,6 +1,6 @@
 ---
 created: 2025-08-14T09:45:53-06:00
-modified: 2025-08-30T19:09:31-06:00
+modified: 2025-08-30T19:11:59-06:00
 type: Checklist
 ---
 
@@ -27,3 +27,5 @@ type: Checklist
 - [ ] pants?
 - [ ] skirt?
 - [ ] candles + holder
+- [ ] lipstick
+- [ ] eyeliner
