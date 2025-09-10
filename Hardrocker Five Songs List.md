@@ -1,6 +1,6 @@
 ---
 created: 2025-09-09T18:07:48-06:00
-modified: 2025-09-09T18:14:23-06:00
+modified: 2025-09-09T18:33:22-06:00
 ---
 
 # Hardrocker Five Songs List
@@ -453,7 +453,7 @@ Car Seat Headrest – Drunk Drivers/Killer Whales
 Car Seat Headrest – Bodys
 Car Seat Headrest – Fill in the Blank
 Car Seat Headrest – Destroyed by Hippie Powers
-Car Seat Headrest – Beach Life-in-Death (if you’re ambitious lol)
+Car Seat Headrest – Beach Life-in-Death 
 Death Cab for Cutie – Title and Registration
 Death Cab for Cutie – Transatlanticism
 Death Cab for Cutie – I Will Follow You Into the Dark
