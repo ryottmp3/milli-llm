@@ -1,6 +1,6 @@
 ---
 created: 2025-09-09T18:07:48-06:00
-modified: 2025-09-09T18:09:12-06:00
+modified: 2025-09-09T18:10:44-06:00
 ---
 
 # Hardrocker Five Songs List
@@ -295,6 +295,59 @@ Someday I Suppose – Mighty Mighty Bosstones
 Knock on Wood – The Toasters
 East Side Beat – The Toasters
 Two Tone Army – The Toasters
+
+
+---
+
+---
+
+Choking Victim
+
+500 Channels
+Crack Rock Steady
+Money
+Suicide (A Better Way)
+Born to Die
+War Story
+Infested
+Fuck America
+In My Grave
+
+Leftöver Crack
+
+Gay Rude Boys Unite
+Nazi White Trash
+Rock the 40oz
+Atheist Anthem
+Crack City Rockers
+Nobody Is Free
+Soon We’ll Be Dead
+Gang Control
+Stop the Insanity
+Clear Channel (Fuck Off!)
+
+Morning Glory (Ezra’s other project)
+
+Revolution Rock
+Thirsty and Miserable (Black Flag cover)
+Gangsters & Angels
+Everythings a Song (To Me)
+Care of Me
+
+No-Ca$h (cult classic CRS-adjacent)
+
+Run Your Mouth
+You’re a Fucking Mess
+Life Sucks
+Homelife is a Prison
+Young Boys Minds
+
+Star Fucking Hipsters
+
+Two Cups of Tea
+Immigrants & Hypocrites
+Dreams Are Dead
+Only Sleep
 
 
 ---
