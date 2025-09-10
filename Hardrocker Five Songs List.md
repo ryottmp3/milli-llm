@@ -1,6 +1,6 @@
 ---
 created: 2025-09-09T18:07:48-06:00
-modified: 2025-09-09T18:08:18-06:00
+modified: 2025-09-09T18:09:12-06:00
 ---
 
 # Hardrocker Five Songs List
@@ -64,6 +64,7 @@ Fever
 Cry Me a River
 I Put a Spell on You
 At Last
+Careless Whisper
 
 
 ---
