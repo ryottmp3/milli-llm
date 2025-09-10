@@ -1,6 +1,6 @@
 ---
 created: 2025-09-09T18:07:48-06:00
-modified: 2025-09-09T18:10:44-06:00
+modified: 2025-09-09T18:14:23-06:00
 ---
 
 # Hardrocker Five Songs List
@@ -348,6 +348,124 @@ Two Cups of Tea
 Immigrants & Hypocrites
 Dreams Are Dead
 Only Sleep
+
+
+---
+
+
+Grunge / Post-Grunge
+Nirvana – Smells Like Teen Spirit
+Nirvana – Come As You Are
+Nirvana – Lithium
+Nirvana – Heart-Shaped Box
+Nirvana – All Apologies
+Soundgarden – Black Hole Sun
+Soundgarden – Fell on Black Days
+Soundgarden – Rusty Cage
+Alice in Chains – Rooster
+Alice in Chains – Nutshell
+Alice in Chains – Down in a Hole
+Pearl Jam – Alive
+Pearl Jam – Even Flow
+Pearl Jam – Jeremy
+Pearl Jam – Black
+Stone Temple Pilots – Plush
+Stone Temple Pilots – Interstate Love Song
+Bush – Glycerine
+Bush – Machinehead
+Silverchair – Tomorrow
+Hole – Celebrity Skin
+Smashing Pumpkins – 1979
+Smashing Pumpkins – Tonight, Tonight
+Smashing Pumpkins – Bullet With Butterfly Wings
+Creed – With Arms Wide Open
+Creed – Higher
+Creed – My Sacrifice
+Creed – One Last Breath
+
+Emo / Midwest Emo / Emo Revival
+American Football – Never Meant
+American Football – The Summer Ends
+American Football – Honestly?
+Mineral – Gloria
+Mineral – Parking Lot
+Sunny Day Real Estate – In Circles
+Sunny Day Real Estate – Seven
+Cap’n Jazz – Little League
+Cap’n Jazz – Oh Messy Life
+The Promise Ring – Why Did Ever We Meet
+The Promise Ring – Red & Blue Jeans
+Joan of Arc – Post Coitus Rock
+Owen – The Sad Waltzes of Pietro Crespi
+Algernon Cadwallader – Spit Fountain
+Algernon Cadwallader – Some Kind of Cadwallader
+Modern Baseball – Your Graduation
+Modern Baseball – Tears Over Beers
+Modern Baseball – Fine, Great
+The World Is a Beautiful Place & I Am No Longer Afraid to Die – Getting Sodas
+The World Is… – January 10th, 2014
+Snowing – Important Things (Specter Magic)
+Snowing – Kirk Cameron Crowe
+Glocca Morra – Ya’ll Boots Hats? (Die Angry)
+Glocca Morra – Irrevocable, Motherfucker
+Foxing – The Medic
+Foxing – Rory
+Foxing – Night Channels
+Empire! Empire! (I Was a Lonely Estate) – Keep What You Have Built Up Here
+Tiny Moving Parts – Always Focused
+Tiny Moving Parts – Caution
+Mom Jeans – Edward 40hands
+Mom Jeans – Scott Pilgrim vs. My GPA
+
+Emo / Scene / Alt Rock
+My Chemical Romance – I’m Not Okay (I Promise)
+My Chemical Romance – Helena
+My Chemical Romance – The Ghost of You
+My Chemical Romance – Famous Last Words
+My Chemical Romance – Welcome to the Black Parade
+My Chemical Romance – Cancer
+My Chemical Romance – Teenagers
+Fall Out Boy – Sugar, We’re Goin Down
+Fall Out Boy – Dance, Dance
+Fall Out Boy – Thnks fr th Mmrs
+Fall Out Boy – Saturday
+Panic! at the Disco – I Write Sins Not Tragedies
+Panic! at the Disco – Lying Is the Most Fun a Girl Can Have Without Taking Her Clothes Off
+Paramore – Misery Business
+Paramore – That’s What You Get
+Paramore – Decode
+Taking Back Sunday – Cute Without the E (Cut From the Team)
+Taking Back Sunday – MakeDamnSure
+Brand New – The Quiet Things That No One Ever Knows
+Brand New – Sic Transit Gloria… Glory Fades
+Brand New – Jesus Christ
+Hawthorne Heights – Ohio Is for Lovers
+Jimmy Eat World – The Middle
+Jimmy Eat World – Sweetness
+Jimmy Eat World – Hear You Me
+Dashboard Confessional – Hands Down
+Dashboard Confessional – Screaming Infidelities
+Thursday – Understanding in a Car Crash
+Thursday – Cross Out the Eyes
+
+Indie / Indie-Adjacent Emo Influence
+Car Seat Headrest – Drunk Drivers/Killer Whales
+Car Seat Headrest – Bodys
+Car Seat Headrest – Fill in the Blank
+Car Seat Headrest – Destroyed by Hippie Powers
+Car Seat Headrest – Beach Life-in-Death (if you’re ambitious lol)
+Death Cab for Cutie – Title and Registration
+Death Cab for Cutie – Transatlanticism
+Death Cab for Cutie – I Will Follow You Into the Dark
+Modest Mouse – Dramamine
+Modest Mouse – 3rd Planet
+Modest Mouse – Float On
+Bright Eyes – First Day of My Life
+Bright Eyes – Lua
+Bright Eyes – Lover I Don’t Have to Love
+Elliott Smith – Between the Bars
+Elliott Smith – Angeles
+Elliott Smith – Needle in the Hay
 
 
 ---
