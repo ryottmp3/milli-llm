@@ -64,4 +64,6 @@ I can tell where my casings had landed because of the little holes they left in 
 
 Immediately, pain shoots through my hip as my feet slip from below me. I land on a patch of snow-covered ice and take a second to regain my composure before standing. Using one of the pillars to steady myself, I start running toward the bodies to see if I could render any first aid.­
 
-Everything is still now. Eerily still.
+Everything is still now. Eerily still. Joe and Clara lay slumped in a pile near the pumps. They spent their dying moments in an embrace. Fuck, it was kinda poetic. They had just gotten their marriage put back together after Joe's infidelity had put it on the ritz. 
+
+Big, fluffy snowflakes float down ever so softly, illuminated by the orange glow of the streetlamps. It's like a scene out of a Christmas romance flick, except the reality is so much more grim.
