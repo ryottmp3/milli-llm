@@ -46,6 +46,8 @@ Glass explodes somewhere. Shouts. A stray round zings off the bumper, sending sp
 
 Something punches through my side, and involuntarily, I let out a scream as white fire tearing all the air out of me. For a second I don’t even—
 
+---
+
 ## 2: Harry
 
 “FUCK!” I thought. I missed again. I can barely see what I’m aiming at through the blowing snow. I cycle my bolt, aiming at the muzzle flash of the guardsman firing blindly in all directions.
